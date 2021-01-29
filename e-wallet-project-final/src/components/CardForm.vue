@@ -83,7 +83,7 @@ export default {
                 
                 id: '',
                 cardNumber: '',
-                cardHolderName: null,
+                cardHolderName: '',
                 vaildMonth: '',
                 vaildyear: '',
                 cardVendor: ''

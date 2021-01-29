@@ -4,13 +4,13 @@
 
     <div class="card" :class="cardColor" >
 
-        <img v-if="this.card.vendor === 'Ninja-bank'" class="vendor-chip" src="../../assets/chip-light.svg" alt="chip">
-        <img v-else src="../../assets/chip-dark.svg" class="vendor-chip" alt="chip">
+        <img v-if="this.card.vendor === 'Ninja-bank'" class="vendor-chip" src="../assets/chip-light.svg" alt="chip">
+        <img v-else src="../assets/chip-dark.svg" class="vendor-chip" alt="chip">
 
-        <img v-if="this.card.vendor === 'bitcoin-inc'" class="vendor-logo" src="../../assets/vendor-bitcoin.svg" alt="logo" />
-        <img v-else-if="this.card.vendor === 'Ninja-bank'" class="vendor-logo" src="../../assets/vendor-ninja.svg" alt="logo" />
-        <img v-else-if="this.card.vendor === 'Block-chain-INC'" class="vendor-logo" src="../../assets/vendor-blockchain.svg" alt="logo" />
-        <img v-else-if="this.card.vendor === 'Evil-corp'" class="vendor-logo" src="../../assets/vendor-evil.svg" alt="logo" />
+        <img v-if="this.card.vendor === 'bitcoin-inc'" class="vendor-logo" src="../assets/vendor-bitcoin.svg" alt="logo" />
+        <img v-else-if="this.card.vendor === 'Ninja-bank'" class="vendor-logo" src="../assets/vendor-ninja.svg" alt="logo" />
+        <img v-else-if="this.card.vendor === 'Block-chain-INC'" class="vendor-logo" src="../assets/vendor-blockchain.svg" alt="logo" />
+        <img v-else-if="this.card.vendor === 'Evil-corp'" class="vendor-logo" src="../assets/vendor-evil.svg" alt="logo" />
        
         <p class="card-number">{{ cardNumber }}</p>
         <p class="p-name">CARDHOLDER NAME</p>
@@ -118,7 +118,7 @@ export default {
     grid-row: 1/2;
     grid-column: 2/3;
     padding-top: 30px;
-    padding-left: 70px;
+    padding-left: 50px;
 }
 
 .card-number {

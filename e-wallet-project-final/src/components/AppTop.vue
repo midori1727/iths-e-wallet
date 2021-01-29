@@ -15,13 +15,11 @@ export default {
         title: {
 
             type: String,
-            required: true
         },
 
         cardTitle: {
 
             type: String,
-            required: true
         }
     }
 

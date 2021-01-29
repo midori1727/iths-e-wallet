@@ -78,7 +78,7 @@ export default {
 
     addCardHolderName(name) {
 
-      this.newCard.name = name
+      this.newCard.name = name.toUpperCase()
     },
 
     addVaildMonth(month) {
