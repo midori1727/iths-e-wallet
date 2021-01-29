@@ -6,5 +6,15 @@ Vue.config.productionTip = false;
 
 new Vue({
   router,
+
+  data() {
+
+    return {
+
+      cards: [],
+      activeCardIndex: 0
+      
+    }
+  },
   render: h => h(App)
 }).$mount("#app");

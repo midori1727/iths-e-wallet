@@ -1,4 +1,4 @@
-# e-wallet
+# w-wallet-test.vue
 
 ## Project setup
 ```
